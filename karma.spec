@@ -3,7 +3,7 @@
 %global group prometheus
 
 Name: karma
-Version: 0.132
+Version: 0.133
 Release: 1%{?dist}
 Summary: Alert dashboard for Prometheus Alertmanager
 License: ASL 2.0
@@ -55,6 +55,8 @@ exit 0
 %{_unitdir}/%{name}.service
 
 %changelog
+* Tue Sep 22 2026 Ivan Garcia
+- Bump version to 0.133
 * Mon Aug 06 2026 Ivan Garcia <igarcia@cloudox.org> - 0.132
 - Initial packaging for the 0.132 branch
 * Mon Apr 13 2026 Ivan Garcia <igarcia@cloudox.org> - 0.129
